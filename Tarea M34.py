@@ -10,3 +10,7 @@ import matplotlib as plt
 os.chdir('/users/maria/downloads')
 
 df = pd.read_csv('ventas_catering.csv')
+
+# Limpieza de columnas
+
+df = df.drop(['Unnamed: 11','65'], axis=1)
