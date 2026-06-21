@@ -9,6 +9,12 @@ f = 5
 c = 30 * 10 * 5 / e (1 + f/100)
 print('resultado=', c)
 
+## Cambiando el factor 102 según requerimiento de negocio
+## Cambiando el factor 110 según Junta Control
+## Cambio a factor 200 por Directorio
+## Cambio a factor 300 por Directorio
+
+d = c * 150
 
 
 d = c * 300
